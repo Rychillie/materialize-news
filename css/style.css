@@ -1,0 +1,12 @@
+nav {
+  background-color: #1976d2 !important;
+}
+
+.slider .indicators{
+    display: none;
+}
+
+.quadradinho {
+    max-width: 250px;
+    max-height: 250px;
+}
