@@ -1,5 +1,5 @@
 nav {
-  background-color: #1976d2 !important;
+  background-color: #438AE8 !important;
 }
 
 .slider .indicators{
@@ -9,4 +9,20 @@ nav {
 .quadradinho {
     max-width: 250px;
     max-height: 250px;
+}
+
+.page-footer {
+    background-color: #438AE8 !important;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+    color: #4266FF;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
+    color: #42C1FF;
+}
+
+.pagination li.active {
+    background-color: #438AE8;
 }
