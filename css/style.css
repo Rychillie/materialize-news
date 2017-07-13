@@ -30,3 +30,7 @@ nav {
 .pagination li.active {
     background-color: #438AE8;
 }
+.imagepeq {
+    max-height: 300px;
+    overflow: hidden;
+}
