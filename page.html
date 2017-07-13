@@ -34,19 +34,33 @@
         <!-- Navbar -->
         <div>
             <nav class="nav-extended">
-                <div class="nav-wrapper container">
-                    <a href="index.html" class="brand-logo">Home</a>
-                    <a href="index.html" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down"><!-- menu normal -->
-                        <li><a href="page.html">Sobre</a></li>
-                        <li><a href="page.html">Parceiros</a></li>
-                    </ul>
-                    <ul class="side-nav" id="mobile-demo"><!-- menu lateral -->
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="page.html">Sobre</a></li>
-                        <li><a href="page.html">Parceiros</a></li>
-                    </ul>
-                </div>
+                <ul id="dropdown1" class="dropdown-content">
+                    <li><a href="#!">one</a></li>
+                    <li><a href="#!">two</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#!">three</a></li>
+                </ul>
+                <nav>
+                    <div class="nav-wrapper container">
+                        <a href="index.html" class="brand-logo">Home</a>
+                        <a href="index.html" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="page.html">Sobre</a></li>
+                            <li><a href="page.html">Parceiros</a></li>
+                            <!-- Dropdown Trigger -->
+                            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Categorias<i class="material-icons right">arrow_drop_down</i></a></li>
+                        </ul>
+                        <ul class="side-nav" id="mobile-demo"><!-- menu lateral -->
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="page.html">Sobre</a></li>
+                            <li><a href="page.html">Parceiros</a></li>
+                            <div class="divider"></div>
+                            <li><a href="page.html">one</a></li>
+                            <li><a href="page.html">two</a></li>
+                            <li><a href="page.html">three</a></li>
+                        </ul>
+                    </div>
+                </nav>
             </nav>
         </div>
         
