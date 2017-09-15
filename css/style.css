@@ -34,3 +34,8 @@ nav {
     max-height: 300px;
     overflow: hidden;
 }
+
+
+.tabs .tab{
+    margin: 0px 18px 0px 18px;
+}
